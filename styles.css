@@ -1,0 +1,148 @@
+#flag-one{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: black;
+}
+.box{
+  width:40%;
+  height:46.153%;
+  float:left;
+}
+img{
+  position:relative;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:50%;
+  height:50%;
+}
+.stripe{
+  width:100%;
+  height:7.692%; 
+}
+
+#flag-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display:none;
+}
+
+.box-left {
+  width: 22.22%;
+  height: 100%;
+  float: left;
+}
+
+.box-right {
+  width: 66.66%;
+  height: 100%;
+  float: left;
+}
+
+.stripe-down {
+  width: 11.11%;
+  height: 100%;
+  float: left;
+}
+
+.stripe-down-inner {
+  width: 66.66%;
+  height: 100%;
+  margin: auto;
+}
+
+.stripe-down-inner-inner {
+  width: 66.66%;
+  height: 100%;
+  margin: auto;
+}
+
+.stripe-across {
+  position: relative;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 20%;
+}
+
+.stripe-across-inner {
+  position: relative;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 66.66%;
+  
+}
+
+.stripe-across-inner-inner {
+  position: relative;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 100%;
+  height: 66.66%;
+}
+
+.white {
+  background-color: white;
+}
+
+.red {
+  background-color: #c22821;
+}
+
+.turquoise {
+  background-color: #0081c6;
+}
+
+.blue {
+  background-color: #0f2a96;
+}
+
+.gold {
+  background-color: #f7d900;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* Clear Float */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
